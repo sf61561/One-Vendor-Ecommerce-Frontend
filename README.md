@@ -60,19 +60,66 @@ The project is built using React and Vite while following production-ready front
 # 📂 Folder Structure
 
 ```
-src
+One-Vendor-Ecommerce-Frontend/
 │
-├── assets
-├── components
-├── pages
-├── layouts
-├── routes
-├── hooks
-├── services
-├── context
-├── utils
-├── App.jsx
-└── main.jsx
+├── public/
+│   ├── favicon.svg
+│   └── icons.svg
+│
+├── src/
+│   │
+│   ├── app/
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── router.jsx
+│   │
+│   ├── assets/
+│   │   ├── hero.png
+│   │   ├── react.svg
+│   │   ├── vite.svg
+│   │   └── images/
+│   │       ├── Commerce Hub.png
+│   │       └── Slider/
+│   │           ├── pg-1.png
+│   │           ├── pg-2.png
+│   │           ├── pg-3.png
+│   │           └── pg-4.png
+│   │
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── AuthLayout.jsx
+│   │   │   └── MainLayout.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── HomePage.jsx
+│   │   │   ├── LoginPage.jsx
+│   │   │   └── RegisterPage.jsx
+│   │   │
+│   │   ├── shared/
+│   │   │   ├── SearchBar.jsx
+│   │   │   └── UserNavbar.jsx
+│   │   │
+│   │   └── ui/
+│   │       └── Slider.jsx
+│   │
+│   ├── routes/
+│   │   ├── auth.routes.jsx
+│   │   ├── index.jsx
+│   │   └── public.routes.jsx
+│   │
+│   ├── styles/
+│   │   ├── App.css
+│   │   └── MainLayout.css
+│   │
+│   └── index.css
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
 ```
 
 ---
