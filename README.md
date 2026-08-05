@@ -178,7 +178,7 @@ VITE_API_BASE_URL=http://localhost:5000/api
 
 ## 🏠 Home Page
 
-<img src="./assets/screenshots/home.PNG" width="100%" />
+<img src="./src/assets/screenshots/home.PNG" width="100%" />
 
 <!-- ---
 
