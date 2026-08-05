@@ -13,7 +13,7 @@ Built with **React**, **Vite**, **Tailwind CSS**, and modern frontend best pract
 
 [🌐 Live Demo](YOUR_LIVE_LINK)
 •
-[🚀 Backend Repository](YOUR_BACKEND_REPO)
+[🚀 Backend Repository](https://github.com/sf61561/One-Vendor-Ecommerce-Backend)
 
 </div>
 
