@@ -21,7 +21,7 @@ Built with **React**, **Vite**, **Tailwind CSS**, and modern frontend best pract
 
 # 📖 About
 
-One Vendor Ecommerce is a modern, responsive eCommerce frontend designed to provide a seamless shopping experience. It focuses on clean UI, reusable components, scalability, and performance.
+One Vendor Ecommerce is a modern, responsive eCommerce frontend designed to provide a seamless shopping experience. It focuses on clean UI, reusable components, scalability and performance.
 
 The project is built using React and Vite while following production-ready frontend architecture.
 
@@ -172,15 +172,15 @@ Create a `.env` file.
 VITE_API_BASE_URL=http://localhost:5000/api
 ```
 
-<!-- ---
+---
 
 # 📸 Screenshots
 
 ## 🏠 Home Page
 
-<img src="./assets/screenshots/home.png" width="100%" />
+<img src="./assets/screenshots/home.PNG" width="100%" />
 
----
+<!-- ---
 
 ## 📦 Products
 
@@ -196,9 +196,9 @@ VITE_API_BASE_URL=http://localhost:5000/api
 
 ## 👤 Profile
 
-<img src="./assets/screenshots/profile.png" width="100%" />
+<img src="./assets/screenshots/profile.png" width="100%" /> -->
 
---- -->
+---
 
 # 🎯 Roadmap
 
