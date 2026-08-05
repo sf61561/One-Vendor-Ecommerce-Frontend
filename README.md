@@ -1,74 +1,234 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛒 One Vendor Ecommerce
 
-Currently, two official plugins are available:
+### A Modern Full-Featured Single Vendor eCommerce Frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Built with **React**, **Vite**, **Tailwind CSS**, and modern frontend best practices.
 
-## React Compiler
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite)](https://vite.dev/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[🌐 Live Demo](YOUR_LIVE_LINK)
+•
+[🚀 Backend Repository](YOUR_BACKEND_REPO)
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
 
-src/
+# 📖 About
+
+One Vendor Ecommerce is a modern, responsive eCommerce frontend designed to provide a seamless shopping experience. It focuses on clean UI, reusable components, scalability, and performance.
+
+The project is built using React and Vite while following production-ready frontend architecture.
+
+---
+
+# ✨ Features
+
+- 🛍 Product Catalog
+- 🔍 Product Search
+- 🗂 Category Browsing
+- ❤️ Wishlist
+- 🛒 Shopping Cart
+- 👤 User Authentication
+- 📦 Product Details
+- 📱 Responsive Design
+- 🌙 Modern UI
+- ⚡ Fast Loading
+- 🖼 Image Upload
+- 🔐 Protected Routes
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Framework | React |
+| Build Tool | Vite |
+| Styling | Tailwind CSS |
+| Routing | React Router |
+| Icons | React Icons |
+| Carousel | Swiper.js |
+
+---
+
+# 📂 Folder Structure
+
+```
+src
 │
-├── app/
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── router.jsx
-│   └── providers.jsx
-│
-├── assets/
-│   ├── images/
-│   ├── icons/
-│   └── fonts/
-│
-├── components/
-│   ├── ui/
-│   ├── layout/
-│   └── shared/
-│
-├── features/
-│   ├── auth/
-│   ├── products/
-│   ├── categories/
-│   ├── brands/
-│   ├── cart/
-│   ├── checkout/
-│   ├── orders/
-│   ├── payments/
-│   ├── wishlist/
-│   ├── reviews/
-│   ├── profile/
-│   ├── addresses/
-│   ├── search/
-│   └── admin/
-│
-├── context/
-│   ├── AuthContext.jsx
-│   ├── CartContext.jsx
-│   └── ThemeContext.jsx
-│
-├── hooks/
-│
-├── lib/
-│   ├── api.js
-│   ├── auth.js
-│   └── fetcher.js
-│
-├── services/
-│
-├── utils/
-│
-├── constants/
-│
-├── config/
-│
-├── styles/
-│
-└── index.css
+├── assets
+├── components
+├── pages
+├── layouts
+├── routes
+├── hooks
+├── services
+├── context
+├── utils
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+# 🚀 Getting Started
+
+## Clone Repository
+
+```bash
+git clone https://github.com/sf61561/One-Vendor-Ecommerce-Frontend.git
+```
+
+Move inside project
+
+```bash
+cd One-Vendor-Ecommerce-Frontend
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Production build
+
+```bash
+npm run build
+```
+
+Preview build
+
+```bash
+npm run preview
+```
+
+---
+
+# ⚙ Environment Variables
+
+Create a `.env` file.
+
+```env
+VITE_API_BASE_URL=http://localhost:5000/api
+```
+
+<!-- ---
+
+# 📸 Screenshots
+
+## 🏠 Home Page
+
+<img src="./assets/screenshots/home.png" width="100%" />
+
+---
+
+## 📦 Products
+
+<img src="./assets/screenshots/products.png" width="100%" />
+
+---
+
+## 🛒 Cart
+
+<img src="./assets/screenshots/cart.png" width="100%" />
+
+---
+
+## 👤 Profile
+
+<img src="./assets/screenshots/profile.png" width="100%" />
+
+--- -->
+
+# 🎯 Roadmap
+
+- Authentication
+- Product Filtering
+- Product Search
+- Wishlist
+- Checkout
+- Payment Integration
+- User Dashboard
+- Order History
+- Product Reviews
+- Coupon System
+
+---
+
+# 📈 Performance Goals
+
+- Responsive UI
+- Lazy Loading
+- Reusable Components
+- SEO Friendly
+- Clean Code
+- Maintainable Architecture
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+
+2. Create a branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Open Pull Request
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Author
+
+### Syed Fahad Mahmud
+
+CSE Graduate | Full Stack Web Developer
+
+GitHub: https://github.com/sf61561
+
+LinkedIn: https://www.linkedin.com/in/syed-fahad-mahmud-33b65b248/
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, give it a star!
+
+Made with ❤️ by **Syed Fahad Mahmud**
+
+</div>
