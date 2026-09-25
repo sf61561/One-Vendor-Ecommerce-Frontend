@@ -1,11 +1,12 @@
 import { Outlet } from "react-router";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "../../styles/MainLayout.css"
+import AdminNavbar from "../shared/AdminNavbar";
 
-const MainLayout = () => {
+const AdminLayout = () => {
     return (
         <div>
+            <AdminNavbar />
             <Outlet />
             <ToastContainer
                 position="top-right"
@@ -20,4 +21,4 @@ const MainLayout = () => {
     );
 };
 
-export default MainLayout;
+export default AdminLayout;

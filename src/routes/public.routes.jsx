@@ -8,7 +8,7 @@ const PublicRoutes = [
         children:[
             {
                 index:true,
-                path:'dashboard',
+                path:'',
                 element:<HomePage />
             }
         ]
